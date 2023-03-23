@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somatorio</title>
+</head>
+
+<body>
+    <script>
+
+        var n = prompt("diga a quantidade de números:");
+        var numero;
+        var soma = 0;
+        var i = 0;
+
+        while (i < n) {
+            numero = parseInt(prompt("diga um número"));
+            soma = soma + numero;
+            i = i + 1;
+        }
+
+        document.write("A soma dos " + n + " números é " + soma);
+
+    </script>
+</body>
+
+</html>

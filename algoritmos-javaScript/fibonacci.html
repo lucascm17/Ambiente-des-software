@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci</title>
+</head>
+
+<body>
+
+    <script>
+        var n = prompt("diga o número de termos da sequência:");
+
+        var valor1 = 0;
+        var valor2 = 1;
+        var valor3;
+
+        document.write(valor1 + ", " + valor2);
+
+        for (i = 3; i <= n; i++) {
+            valor3 = valor1 + valor2;
+            document.write(", " + valor3);
+            valor1 = valor2;
+            valor2 = valor3;
+        }
+
+    </script>
+</body>
+
+</html>

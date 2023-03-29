@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ordenacao</title>
-</head>
-
-<body>
-    <script>
         function quicksort(array) {
             if (array.length <= 1) {
                 return array
@@ -36,8 +25,3 @@
         var sorted = quicksort(unsorted)
 
         document.write("Vetor sortido: " + sorted)
-    </script>
-
-</body>
-
-</html>
